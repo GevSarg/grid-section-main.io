@@ -17,14 +17,13 @@ body {
 /* --Grid Cards Style-- */
 .container {
   min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 .grid-cards {
   display: grid;
   justify-content: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   gap: 25px;
   grid-template: 50% 50% / 25% 25% 25% 25%;
   width: 1100px;
